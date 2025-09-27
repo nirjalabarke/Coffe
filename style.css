@@ -1,0 +1,539 @@
+body {
+    font-family: Brandon Grotesque Bold;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    max-width: fit-content;
+}
+
+@media screen and (min-width: 1368px) {
+    body {
+        background: #fff;
+    }
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.get-off {
+    color: white;
+    background-color: #0d0d0d;
+    text-align: center;
+    padding: 14px 12px;
+    font-family:Brandon Grotesque Regular;
+}
+
+span {
+    color: #12b1c5;
+}
+
+.header-section{
+    display: flex;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.header-section img{
+    margin-left: 30px;
+
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 70px;
+    position: relative;
+    vertical-align: middle;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    
+    
+}
+
+.navbar ul li {
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.navbar ul li a {
+    padding: 12px 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
+.navbar ul li .dropdown {
+    display: none;
+    position:absolute;
+    top: 48px;
+    left: 0;
+    min-width: 230px;
+    min-height:fit-content;
+    z-index: 9999;
+    flex-direction: column;
+    background: white;
+    border: none;
+    text-align: center;
+    padding: 12px 12px;
+    
+
+}
+
+.navbar ul li .dropdown li a {
+    padding: 5px 14px;
+    
+    
+
+
+}
+
+.navbar ul li:hover .dropdown {
+    display: flex;
+    align-items:center;
+    white-space: nowrap;
+}
+
+.header-images {
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+.app{
+    background: black;
+    width: 130px;
+    padding:5px 3px;
+    border-radius: 35px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.get-the-app{
+    text-decoration: none;
+    color:#89CADC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-the-app:hover{
+    color:white;
+}
+
+/* slider */
+.slider{
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 50px;
+    bottom:200px;
+    right:50px;
+    cursor: pointer;
+}
+
+.btn2{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 50px;
+    bottom:200px;
+    left:50px;
+    cursor: pointer;
+}
+
+.btn:active{
+    translate: ba;
+}
+
+/* SECTION 2 */
+.img {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    line-height: 1.5;
+    background-color: #fff9ef;
+
+}
+
+.container {
+    text-align: center;
+    letter-spacing: 2px;
+
+
+}
+
+.img img {
+    object-position: inherit;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.img p {
+    text-align: center;
+    width: 200px;
+    font-weight: 550;
+}
+
+/* BEST SELLER COFFEES */
+
+.section-header-title {
+    font-family: Cormorant, serif;
+    font-size: 60px;
+    margin: 50px 0px 50px 20px;
+}
+
+
+
+.section-content {
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.section-card{
+    flex-direction: column;
+    gap:20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.section-card p,h2,a{
+    padding: 0;
+    margin: 0;
+}
+
+.plus{
+    background-color: white;
+    color: black;
+    padding:7px 14px;
+    font-weight: bold;
+}
+
+.buy-now{
+    background-color:#90c1cf;
+    padding: 10px 23px;
+    font-weight:bold;
+    font-size: 18px;
+    color:white;
+}
+
+/* Specialty Coffee */
+.specialty-section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap:50px; */
+}
+
+.specialty-text{
+    padding-left: 100px;
+}
+
+.specialty-text h2{
+    font-size: 60px;
+    font-family: Cormorant, serif;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.specialty-text p{
+    font-family: Brandon Grotesque Regular;
+    font-size: 28px;
+    font-weight:400;
+    word-spacing:1px;
+    padding: 0%;
+    margin-bottom: 50px;
+    
+}
+
+.specialty-text a{
+    background-color:#d3edf4;
+    padding: 15px 40px;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.background{
+background-image: url(/images/imgi_94_subscriber-bg.png);
+}
+
+
+
+/* Brew More */
+
+.brew-more{
+    display: flex;
+    gap:200px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+}
+
+.brew-more-text{
+    margin-top: 80px;
+    margin-left: 100px;
+    
+    
+}
+
+.brew-more-text h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: inherit;
+    line-height: 70px;
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-family: Cormorant,serif;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.sub{
+    text-transform: uppercase;
+    font-family: Brandon Grotesque Bold;
+}
+.brew-more-text ul li{
+    margin-bottom: 10px;
+}
+
+.brew-more-text .feat{
+    color: black;
+    font-family: Brandon Grotesque Regular;
+}
+
+.sub-now{
+    color:black;
+    background-color: #d3edf4;
+    padding:14px 40px;
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* <!-- Customise subscription --> */
+
+.customise-sub{    
+justify-items: center;
+text-align:center;
+align-items: center;
+}
+.customise-sub-text{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.customise-sub-image{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    gap:100px;
+    grid-template-columns:repeat(5,1fr);
+    margin-bottom: 100px;
+
+}
+
+.customise-sub-text h2{
+    font-family: Cormorant,serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.customise{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.customise img{
+    width:112px;
+    height:90px;
+}
+/* video section */
+
+.blue-tokai-video{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* features */
+
+.learn-more-section{
+    text-align: center;
+
+
+}
+
+.new-image{
+    margin-bottom: 50px;
+}
+
+.learn-more{
+    background-color:#90c1cf;
+    padding: 15px 40px;
+    font-weight:bold;
+    font-size: 18px;
+    color:white;
+    
+
+}
+
+/* Customer Reviews */
+.review-section{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:1300px;
+}
+
+.review-section h2{
+    font-size: 50px;
+    font-family: Cormorant;
+    font-weight:500;
+}
+
+.card{
+    display:grid;
+    gap:5px;
+    grid-template-columns:400px 400px 400px;
+    justify-items: center;
+    margin-left: 100px;
+}
+
+.review-card{
+    font-family: Brandon Grotesque Regular;
+    width:350px;
+    height:300px;
+    /* border: 2px solid blanchedalmond; */
+    background-color: #fff9ef;
+    /* display: inline-block; */
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.checked{
+    color:#fadb29;
+}
+           
+
+/* FOOTER SECTION */
+#footer-section{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    background-image: url(/images/imgi_95_footer-svg.png);
+    background-repeat: no-repeat;
+    background-position: bottom  right;
+    background-color: #d2ecf3;
+    background-position: relative;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+
+.container{
+    justify-items: start;
+}
+
+.col-1 p{
+    font-family:  Brandon Grotesque Regular;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.col-1 img{
+    margin-right: 10px;
+    margin-left: 14px;
+}
+.col-2 p{
+    font-family: Brandon Grotesque Regular; 
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight:bold
+}
+
+.footer-heading{
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size:small;
+}
+
+.footer-headings{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size:small;
+}
+
+.menu li{ 
+    font-family:  Brandon Grotesque Regular;
+    margin-bottom: 20px;
+    font-size:15px;
+}
+
+.sign-up{
+    display: block;
+    padding:14px 20px;
+    border: none;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.subscribe-btn{
+    background-color: #0d0d0d;
+    color: white;
+     display: block;
+    padding:14px 43px;
+    border: none;
+    letter-spacing: 0.2px;
+}
+#footer-section ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-left: 0%;
+} 
+
+.whatsapp-widget{
+    z-index: 999;
+    position:fixed;
+    bottom:110px;
+    right:8px;
+
+}
